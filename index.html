@@ -3,49 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>Geburtstags-Jump'n'Run</title>
+  <title>Virág's Birthday Quest</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="page">
-    <header class="hud-top">
-      <div>
-        <h1>🎂 Geburtstags-Jump'n'Run</h1>
-        <p>Sammle die 3 Kerzen und erreiche das Ziel.</p>
-      </div>
-      <button id="restartBtn" type="button">Neu starten</button>
-    </header>
-
-    <main>
-      <section class="game-shell">
-        <canvas id="game" width="960" height="540" aria-label="Geburtstagsspiel"></canvas>
-
-        <div class="hud-panel">
-          <div><strong>Kerzen:</strong> <span id="candles">0 / 3</span></div>
-          <div><strong>Zeit:</strong> <span id="timer">0.0s</span></div>
-          <div><strong>Hinweis:</strong> Am Ende erscheinen die 3 Code-Zahlen.</div>
-        </div>
-
-        <div class="controls" aria-label="Touch-Steuerung">
-          <button class="ctrl" id="leftBtn" type="button">◀</button>
-          <button class="ctrl" id="jumpBtn" type="button">▲</button>
-          <button class="ctrl" id="rightBtn" type="button">▶</button>
-        </div>
-
-        <div id="overlay" class="overlay">
-          <div class="card">
-            <h2>Alles Gute zum Geburtstag! 🎉</h2>
-            <p>
-              Springe durch das Level, sammle alle 3 Geburtstagskerzen und erreiche die Zielflagge.
-            </p>
-            <p class="small">Tastatur: A/D oder ←/→ zum Laufen, W/Leertaste/↑ zum Springen</p>
-            <button id="startBtn" type="button">Spiel starten</button>
-          </div>
-        </div>
-      </section>
-    </main>
+  <div class="game-shell">
+    <h1>Virág's Birthday Quest 🎂</h1>
+    <p class="subtitle">Sammle 3 Kerzen, weiche den Hunden aus und erspiele den Code für dein Geschenk.</p>
+    <div class="canvas-wrap">
+      <canvas id="game" width="960" height="540"></canvas>
+    </div>
+    <div class="mobile-controls">
+      <button id="leftBtn" aria-label="Nach links">◀</button>
+      <button id="jumpBtn" aria-label="Springen">▲</button>
+      <button id="rightBtn" aria-label="Nach rechts">▶</button>
+    </div>
   </div>
-
   <script src="game.js"></script>
 </body>
 </html>

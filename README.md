@@ -1,39 +1,14 @@
-# Geburtstags-Jump'n'Run
+# Virág's Birthday Quest
 
-Ein kleines browserbasiertes Geburtstags-Spiel im Retro-Stil: Die spielende Person sammelt 3 Kerzen, erreicht das Ziel und sieht danach den 3-stelligen Geschenk-Code.
+Browserbasiertes Geburtstags-Spiel im Retro-Stil.
 
 ## Dateien
-
 - `index.html` – Einstiegspunkt
-- `style.css` – Layout und Retro-Optik
-- `game.js` – Spiellogik
+- `style.css` – Layout und mobile Darstellung
+- `game.js` – Spielmechanik
 
-## Geschenk-Code anpassen
-
-Öffne `game.js` und ändere diese Zeile:
-
-```js
-codeDigits: ['4', '8', '2'],
-```
-
-Beispiel für den Code 731:
-
-```js
-codeDigits: ['7', '3', '1'],
-```
-
-## Name anpassen
-
-Ebenfalls in `game.js`:
-
-```js
-playerName: 'Geburtstagsheld',
-```
-
-## Lokal testen
-
-Einfach `index.html` im Browser öffnen.
-
-## Hosting-Idee
-
-Dieses Projekt ist eine statische Website und kann sehr einfach auf GitHub Pages, Netlify oder Vercel veröffentlicht werden.
+## Besonderheiten
+- auf dem Handy spielbar
+- Touch-Steuerung
+- 3 Kerzen sammeln
+- Code am Ende: 4 2 1
