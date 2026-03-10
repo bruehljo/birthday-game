@@ -1,14 +1,23 @@
-# Virág's Birthday Quest
+# Virág's Birthday Quest – Deluxe
 
-Browserbasiertes Geburtstags-Spiel im Retro-Stil.
+Comic-Stil Jump-n-Run für den Browser.
 
-## Dateien
-- `index.html` – Einstiegspunkt
-- `style.css` – Layout und mobile Darstellung
-- `game.js` – Spielmechanik
+## Enthalten
+- `index.html`
+- `style.css`
+- `game.js`
 
-## Besonderheiten
-- auf dem Handy spielbar
-- Touch-Steuerung
-- 3 Kerzen sammeln
-- Code am Ende: 4 2 1
+## Features
+- Handy-geeignet mit Touch-Steuerung
+- blonde Spielfigur im Comicstil
+- brauner und weißer Hund als Hindernisse
+- längeres Side-Scrolling-Level
+- normale Plattformen + 2 bewegliche Plattformen
+- 3 Geburtstagskerzen sammeln
+- Bonus-Hundekekse
+- Sektflasche als Ziel mit Konfetti-Explosion
+- Happy-Birthday-Melodie per WebAudio
+- Comic-Startseite und Comic-Abschlussseite
+
+## Code
+Geschenkcode: 4 2 1
